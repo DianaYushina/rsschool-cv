@@ -1,0 +1,459 @@
+body{
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+}
+img {
+	display: block;
+}
+header {
+	background-image: url(../../media/img/pexels-bekir-dönmez-670028.jpg);
+	background-size: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.logo {
+	border: 1px solid #000;
+	width: 38px;
+	margin-top: 7%;
+	font-weight: 900;
+}
+.a-logo {
+	color: #000;
+	text-decoration: none;
+	font-weight: 900; 
+	font-size: 45px;
+}
+.a-logo:hover {
+	color: rgba(0.36, 0.36, 0.36, 0.5);
+}
+.profession {
+	padding-bottom: 2.8%;
+}
+nav {
+	background-color: rgba(40, 39, 40, 0.9);
+	padding-top: 1.5%;
+	padding-bottom: 0.3%;
+}
+ul {
+	margin-top: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+.a-nav-menu {
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+.a-nav-menu:hover {
+	color: rgba(170, 159, 153, 1);
+}
+/*CONTACTS*/
+.section-contacts {
+	background-image: url(../../media/img/pexels-gantas-vaičiulėnas-11181151.jpg);
+	background-size: 100%;
+	padding-bottom: 7%;	
+}
+.section-style-contacts {
+	display: flex;
+	justify-content: center;
+}
+.box_contacts {
+	margin-top: 8%;
+	border: 1px solid transparent;
+	border-radius: 14px;
+	width: 80%;
+	background-color:rgba(55, 55, 55, 0.8);
+	padding-bottom: 4%;
+}
+.my-name {
+	font-weight: 400;
+	color: rgba(225, 225, 225, 0.9);
+	padding-top: 7%;
+	text-align: center;
+}
+.border-my-name-style {
+	display: flex;
+	justify-content: center;
+}
+.border-my-name {
+	border-bottom: 1px solid rgba(225, 225, 225, 0.9);
+	width: 100px;
+	padding-top: 2%;
+}
+.my_photo-inf {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.my_photo {
+	padding-top: 6%;
+}
+.inf-contacts {
+	padding-top: 6%;
+	margin-left: 5%;
+}
+.inf {
+	display: flex;
+	line-height: 30px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border: 1px solid transparent;
+	width: 500px;
+	color: rgba(225, 225, 225, 1);
+	font-size: 18px;
+	text-decoration: none;
+}
+.inf:hover {
+	color: rgba(225, 225, 225, 0.5);
+}
+.img-contact {
+	margin-right: 3%;
+}
+.style_messengers_contacts {
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+}
+.messenger-skype {
+	border: 1.5px solid #000;
+	border-radius: 50%;
+	width: 45px;
+	margin-right: 2%;
+}
+.messenger {
+	margin-right: 2%;
+}
+/*EDUCATION*/
+.education-skills-style {
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding-bottom: 6%;
+}
+.box-education {
+	padding-top: 7%;
+	display: flex;
+	justify-content: center;
+}
+.border-education {
+	border: 1px solid transparent;
+	border-radius: 14px;
+	width: 45vw;
+	background-color: rgba(245, 238, 233, 0.86);
+	padding-bottom: 3%;
+}
+.text-ed {
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.8);
+	padding-top: 7%;
+	text-align: center;
+}
+.border_after_ed-style {
+	display: flex;
+	justify-content: center;
+}
+.border_after_ed {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+	width: 100px;
+	padding-top: 2%;
+}
+.education-part {
+	padding-top: 3%;
+}
+.text-education {
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 20px;
+	padding-left: 4%;
+	padding-right: 4%;
+	line-height: 30px;
+}
+.text-education:before {
+	content: "\2714";
+	padding-right: 3%;
+}
+/*SKILLS*/
+.box-skills {
+	padding-top: 7%;
+}
+.border-skills {
+	border: 1px solid transparent;
+	border-radius: 14px;
+	width: 450px;
+	background-color: rgba(55, 55, 55, 0.5);
+	padding-bottom: 3%;
+}
+.skills-part {
+	padding-top: 3%;
+}
+.text-sk {
+	font-weight: 600;
+	color:   rgba(55, 55, 55, 1);
+	padding-top: 7%;
+	text-align: center;
+}
+.border_after_sk-style {
+	display: flex;
+	justify-content: center;
+}
+.border_after_sk {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+	width: 60px;
+	padding-top: 2%;
+}
+.text-skills {
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 20px;
+	padding-left: 4%;
+	padding-right: 4%;
+	line-height: 30px;
+}
+.text-skills:before {
+	content: "\2712";
+	padding-right: 3%;
+}
+/*EDUCATION PROJECTS*/
+.img-part1 {
+	background-image: url(../../media/img/pexels-yulia-pribytkova-12315780.jpg);
+	background-size: 100%;
+	padding-bottom: 6%;
+}
+.text-education-projects {
+	text-align: center;
+	padding-top: 7%;
+	padding-bottom: 4%;
+	color: rgba(225, 225, 225, 0.9);
+	font-weight: bold;
+}
+.style_project1 {
+	display: flex;
+	justify-content: center;
+}
+.projects_img-style {
+	padding-top: 3%;
+	padding-bottom: 10%;
+	background-color: rgba(237, 230, 224);
+}
+.scills_projects1{
+	color: rgba(35, 56, 43);
+	font-size: 22px;
+	font-weight: 600;
+}
+.scills_projects {
+	font-size: 18px;
+	font-weight: 400;
+	color: rgba(23, 36, 28);
+	padding: 1%;
+}
+.scills_projects:before {
+	content: "\2013";
+	padding-right: 2%;
+}
+.description_projects {
+	background-color: rgba(237, 230, 224);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: center;	
+}
+.projects_img {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.project_st {
+	padding: 1%;
+}
+.t-pr {
+	border: 1px solid transparent;
+	width: 50vw;
+	height: 40vh;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 14px;
+	padding: 1%;
+	margin-left: 10%;
+}
+.t-educational-projects {
+	text-align: center;
+	padding-top: 2%;	
+	color: rgba(35, 56, 43);
+	font-size: 24px;
+	font-weight: 600;
+}
+.educational-projects{
+	color: rgba(35, 56, 43);
+	text-decoration: none;
+}
+.educational-projects:hover{
+	color: rgba(125, 123, 122, 1);
+	text-decoration: underline;
+}
+.scills-educational-projects {
+	margin-left: 5%;
+	padding: 0.1%;
+	color: rgba(23, 36, 28);
+}
+.scills-educational-projects:before {
+	content: "\2013";
+	padding-right: 2%;
+}
+.hide_page_target {
+	display: none;
+}
+.hide_page_target:target {
+	display: block;
+}
+.style-button_see_more {
+	display: flex;
+	justify-content: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.button_see_more {
+	text-decoration: none;
+	color: #fff;
+}
+.button_see_more:hover {
+	text-decoration: underline;
+	color: rgba(6, 54, 61);
+}
+/*SUMMARY*/
+.t-summary {
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 19px;
+	padding-left: 4%;
+	padding-right: 4%;
+	line-height: 30px;
+}
+.text-ed {
+	color: rgba(55, 55, 55, 1);
+	font-weight: 700;
+	margin-bottom: 0%;
+}
+/*ENGLISH*/
+.text-english {
+	font-weight: 600;
+	color: rgba(55, 55, 55, 1);
+	text-align: center;
+	margin-bottom: 0%;
+}
+.education-project {
+	color: #000;
+}
+.english_level {
+	background-image: url(../../media/img/pexels-julia-volk-5652633.jpg);
+	background-size: 100%;
+	padding-top: 7%;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 8%;
+}
+.english-border {
+	border: 1px solid transparent;
+	width: 40vw;
+	height: 20vh;
+	border-radius: 14px;
+	background-color: rgba(237, 230, 224, 0.5);
+	padding: 1%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.code_example {
+	border: 1px solid transparent;
+	width: 40vw;
+	border-radius: 14px;
+	background-color: rgba(237, 230, 224, 0.5);
+	padding: 1%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.border-style-code {
+	display: flex;
+	justify-content: center;
+}
+.border-code{
+	border-bottom: 1px solid  rgba(55, 55, 55, 1);
+	width: 100px;
+	padding-top: 3%;
+}
+.name-code {
+	color: rgba(55, 55, 55, 1);
+	text-align: center;
+	margin-bottom: 0%;
+}
+.t-english {
+	 padding-top: 4%;
+	 padding-right: 4%;
+	 color: rgba(55, 55, 55, 1);
+	 margin-bottom: 6%;
+}
+.code1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	padding-top: 6%;
+	padding-left: 3%;
+	color: rgba(55, 55, 55, 1);
+}
+.code2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	padding-left: 3%;
+	padding-bottom: 3%;
+	color: rgba(55, 55, 55, 1);
+}
+.code {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	padding-left: 3%;
+	color: rgba(55, 55, 55, 1);
+}
+/*FOOTER*/
+footer {
+	background-color: rgba(0, 0, 0, 0.85);
+	padding-top: 2%;
+	padding-bottom: 2%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.style-footer {
+	display: flex;
+	align-items: center;
+}
+.DY {
+	border: 1px solid #fff;
+	width: 26px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.a_DY {
+	font-size: 30px;
+	font-weight: 900;
+	color: #fff;
+	text-decoration: none;
+}
+.a_DY:hover {
+	color: rgba(255, 213, 65);
+}
+.GitHub_footer {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.data {
+	color: rgba(225,225,225);
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 5%;
+}
+img {
+	display: block;
+}
